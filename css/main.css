@@ -115,9 +115,9 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
 	height: auto;
 	border-top: 1px solid #eee;
+	flex-grow: 1;
 }
 
 .section-one h3 {
