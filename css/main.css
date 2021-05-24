@@ -61,7 +61,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 0px 0 38px;
 }
 header nav ul {
 	margin: 0;
@@ -71,7 +71,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
+	padding: 10px 10px;
 	list-style: none;
 }
 header nav ul li a{
