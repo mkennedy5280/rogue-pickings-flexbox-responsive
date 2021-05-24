@@ -55,6 +55,7 @@ header {
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
@@ -94,7 +95,6 @@ header nav ul li a{
 }
 .main-image img {
 	width: 100%;
-	border-top: 3px solid #77a466;
 	border-bottom: 3px solid #77a466;
 }
 
