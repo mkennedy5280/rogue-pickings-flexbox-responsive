@@ -188,6 +188,13 @@ footer span {
     	align-items: center;
     	flex-flow: row nowrap;
 	}
+
+	.section-one,
+    .section-two,
+	.section-three {
+		padding: 0 25px;
+	}
+	
 	.section-two {
 		flex-shrink: 6;
 	}
