@@ -213,6 +213,9 @@ footer span {
 	header nav ul li {
     	display: inline;
 	}
+	header h1 {
+	border-bottom: none;
+	}
 }
 
 
