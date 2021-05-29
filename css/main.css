@@ -162,3 +162,15 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+/* ----- Responsive ----- */
+@media only screen and (min-width: 423px) {
+	header {
+    	flex-flow: column wrap;
+}
+}
+
+
+
+
+
