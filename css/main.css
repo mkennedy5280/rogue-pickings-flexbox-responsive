@@ -219,6 +219,9 @@ footer span {
 	.main-image img {
 		border-top: 3px solid #77a466;
 	}
+	.section-two {
+    	flex-shrink: 6;
+	}
 }
 
 
