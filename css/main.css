@@ -210,29 +210,9 @@ footer span {
 		header {
     	flex-flow: row wrap;
 	}
-	.bottom-section {
-		margin: 0 auto;
-		display: flex;
-    	justify-content: center;
-    	align-items: center;
-    	flex-flow: row nowrap;
-    	align-items: stretch;
+	header nav ul li {
+    	display: inline;
 	}
-	.section-one,
-    .section-two,
-	.section-three {
-		padding: 0 25px;
-	}
-	.section-two {
-		flex-shrink: 3;
-	}
-	.section-two {
-		border-left: 1px solid #eee;
-		border-right: 1px solid #eee;
-	}
-	footer {
-   		margin: 25px 0 0 56px;
-   	}
 }
 
 
