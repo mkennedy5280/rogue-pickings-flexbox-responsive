@@ -189,19 +189,32 @@ footer span {
     	flex-flow: row nowrap;
     	align-items: stretch;
 	}
-
 	.section-one,
     .section-two,
 	.section-three {
 		padding: 0 25px;
 	}
-
 	.section-two {
 		flex-shrink: 3;
 	}
 	.section-two {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
- }
+	}
+	footer {
+   		margin: 25px 0 0 56px;
+   	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
