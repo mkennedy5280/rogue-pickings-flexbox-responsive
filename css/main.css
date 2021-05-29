@@ -187,6 +187,7 @@ footer span {
     	justify-content: center;
     	align-items: center;
     	flex-flow: row nowrap;
+    	align-items: stretch;
 	}
 
 	.section-one,
