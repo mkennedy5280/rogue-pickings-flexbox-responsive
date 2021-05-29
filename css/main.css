@@ -123,9 +123,6 @@ header nav ul li a{
 	flex-grow: 1;
 }
 
-.section-one h3 {
-	padding: 10px 0;
-}
 
 .section-two {
 	border-left: 1px solid #eee;
@@ -194,10 +191,9 @@ footer span {
 	.section-three {
 		padding: 0 25px;
 	}
+
 	.section-two {
 		flex-shrink: 3;
-	}
-	.section-two {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
 	}
@@ -230,6 +226,8 @@ footer span {
 @media only screen and (min-width: 1200px) {
 	.container {
     	width: 1200px;
+    }
+
 }
 
 
