@@ -194,9 +194,9 @@ footer span {
 	.section-three {
 		padding: 0 25px;
 	}
-	
+
 	.section-two {
-		flex-shrink: 6;
+		flex-shrink: 3;
 	}
 	.section-two {
 		border-left: 1px solid #eee;
