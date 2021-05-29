@@ -216,6 +216,9 @@ footer span {
 	header h1 {
 	border-bottom: none;
 	}
+	.main-image img {
+		border-top: 3px solid #77a466;
+	}
 }
 
 
