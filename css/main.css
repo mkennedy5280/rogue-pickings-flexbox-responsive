@@ -53,7 +53,7 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0 20px;
+	padding: 38px 20px 20px 20px; 
 	border-bottom: 3px solid #77a466;
 	width: 100%;
 }
