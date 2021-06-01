@@ -63,6 +63,7 @@ header h1 span {
 
 header nav {
 	padding: 20px 0 20px;
+	width: 100%;
 }
 header nav ul {
 	margin: 0;
