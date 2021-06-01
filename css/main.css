@@ -49,6 +49,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    text-align: center;
 }
 
 header h1 {
@@ -80,7 +81,6 @@ header nav ul li a{
 	color:#77a466;
 }
 
-/*The widths are in a percentage!*/
 .top-section {
 	margin: 0 auto;
 	display: flex;
@@ -120,7 +120,6 @@ header nav ul li a{
 .section-two,
 .section-three {
 	height: auto;
-	border-top: 1px solid #eee;
 	width: 100%;
 }
 
@@ -167,19 +166,14 @@ footer span {
 	font-size: 0.875em;
 }
 
-/* ----- Responsive 
-@media only screen and (min-width: 423px) {
-	header {
-    	flex-flow: column wrap;
+/* ----- Responsive ----- */
+
+	/* Tablet stysle here */
+@media all and (min-width: 768px) {
+	.main-title {
+		border-bottom: 1px solid #eee;
 	}
-	.section-two {
-     border-left: none;
-     border-right: none;
-	}
-}
-Fixes wrapping on header
------ */
-@media only screen and (min-width: 768px) {
+
 	.bottom-section {
 		margin: 0 auto;
 		display: flex;
@@ -188,48 +182,45 @@ Fixes wrapping on header
     	flex-flow: row nowrap;
     	align-items: stretch;
 	}
+	
 	.section-one,
     .section-two,
 	.section-three {
-		padding: 0 25px;
 		width: 30%;
 	}
 
 	.section-two {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
+		padding: 0 25px;
 	}
 	footer {
-   		margin: 25px 0 0 56px;
+   		margin: 0 auto;
+   		border: none;
    	}
 }
 
-@media only screen and (min-width: 1024px) {
-		header {
-    	flex-flow: row wrap;
+	/* Desktop stysle here */
+@media all and (min-width: 1200px) {
+	.container {
+		width: 60%;
+	}
+
+	header h1 {
+    	width: 30%;
+    	border: none;
 	}
 	header nav ul li {
     	display: inline;
 	}
-	header h1 {
-	border-bottom: none;
-	}
+
 	.main-image img {
 		border-top: 3px solid #77a466;
 	}
-	.section-two {
-    	flex-shrink: 6;
-	}
+
 	footer {
    		margin: 0 auto;
    	}
-}
-
-@media only screen and (min-width: 1200px) {
-	header h1 {
-    	width: 30%;
-	}
-
 }
 
 
